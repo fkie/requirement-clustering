@@ -1,0 +1,5 @@
+| ClusterAlgorithm | DistanceFunction | Used Fields | NaiveAvg | NaiveStd | F1Avg | F1Std | RecallAvg | RecallStd | PrecisionAvg | PrecisionStd | PurityAvg | PurityStd | JaccardAvg | JaccardStd | RandAvg | RandStd | Tfidf | StopWords | Interpreted | UpperCase | Lemmatized | Minimum Occurence of each Word | "Accordance" | RuntimeAvg(ms) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+<#list Metas as meta>
+| ${meta.clusterer}| ${meta.distance}| ${meta.fields}| ${meta.naiveAvg}| ${meta.naiveStd}| ${meta.f1Avg}| ${meta.f1Std}| ${meta.recallAvg}| ${meta.recallStd}| ${meta.precisionAvg}| ${meta.precisionStd} | ${meta.purityAvg}| ${meta.purityStd} | ${meta.jaccardAvg}| ${meta.jaccardStd} | ${meta.randAvg}| ${meta.randStd} | ${meta.tfidf?c} | ${meta.stopWords?c} | ${meta.ruppInterpretation?c}| ${meta.upperCase?c}| ${meta.lemmatized?c} | ${meta.parameter}| ${meta.accordance}| ${meta.runtimeAvg}|
+</#list>

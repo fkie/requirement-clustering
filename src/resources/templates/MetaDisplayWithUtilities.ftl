@@ -1,0 +1,4 @@
+ClusterAlgorithm;DistanceFunction;NaiveAvg;NaiveStd;F1Avg;F1Std;RecallAvg;RecallStd;PrecisionAvg;PrecisionStd;PurityAvg;PurityStd;JaccardAvg;JaccardStd;RandAvg;RandStd;CohesionAvg;CohesionStd;SeperationAvg;SeperationStd;SilhouetteAvg;SilhouetteStd;"Accordance";RuntimeAvg(ms)
+<#list Metas as meta>
+${meta.clusterer};${meta.distance};"${meta.naiveAvg}";"${meta.naiveStd}";"${meta.f1Avg}";"${meta.f1Std}";"${meta.recallAvg}";"${meta.recallStd}";"${meta.precisionAvg}";"${meta.precisionStd}";"${meta.purityAvg}";"${meta.purityStd}";"${meta.jaccardAvg}";"${meta.jaccardStd}";"${meta.randAvg}";"${meta.randStd}";"${meta.cohesionAvg}";"${meta.cohesionStd}";"${meta.seperationAvg}";"${meta.seperationStd}";"${meta.silhouetteAvg}";"${meta.silhouetteStd}";"${meta.accordance}";"${meta.runtimeAvg}"
+</#list>

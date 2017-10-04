@@ -1,0 +1,4 @@
+ClusterAlgorithm;DistanceFunction;Number of used Fields;CohesionAvg;CohesionStd;SeperationAvg;SeperationStd;SilhouetteAvg;SilhouetteStd;Tfidf;StopWords;Interpreted;UpperCase;Lemmatized;Minimum Occurence of each Word;"Accordance";RuntimeAvg(ms)
+<#list Metas as meta>
+${meta.clusterer};${meta.distance};${meta.fields};"${meta.cohesionAvg}";"${meta.cohesionStd}";"${meta.seperationAvg}";"${meta.seperationStd}";"${meta.silhouetteAvg}";"${meta.silhouetteStd}";"${meta.tfidf?c}";"${meta.stopWords?c}";"${meta.ruppInterpretation?c}";"${meta.upperCase?c}";"${meta.lemmatized?c}";"${meta.parameter}";"${meta.accordance}";"${meta.runtimeAvg}"
+</#list>
